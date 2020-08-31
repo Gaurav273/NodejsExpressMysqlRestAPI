@@ -10,6 +10,7 @@ router.post('/admin/signup', (request, response) => {
     const statement = `
         insert into admin 
             (email, password) 
+            
             values 
             (${email}', '${password}');
     `;
